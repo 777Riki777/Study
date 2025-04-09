@@ -1,0 +1,4 @@
+﻿  Lab2.cpp
+C:\Users\bezbo\source\repos\Lab2\Lab2\Lab2.cpp(185,22): warning C4566: символ, представленный универсальным именем символа "\U0001F389", невозможно представить в текущей кодовой странице (1251)
+C:\Users\bezbo\source\repos\Lab2\Lab2\Lab2.cpp(188,22): warning C4566: символ, представленный универсальным именем символа "\U0001F480", невозможно представить в текущей кодовой странице (1251)
+  Lab2.vcxproj -> C:\Users\bezbo\source\repos\Lab2\x64\Debug\Lab2.exe
