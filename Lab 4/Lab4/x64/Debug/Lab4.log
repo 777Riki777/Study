@@ -1,0 +1,15 @@
+﻿  Lab4.cpp
+C:\Users\bezbo\source\repos\Lab4\Lab4\Lab4.cpp(146,45): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\bezbo\source\repos\Lab4\Lab4\Lab4.cpp(147,50): warning C4305: аргумент: усечение из "double" в "float"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244: аргумент: преобразование "_Ty" в "float", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4244:         ]
+  (компиляция исходного файла "Lab4.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\bezbo\source\repos\Lab4\Lab4\Lab4.cpp(150,29):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Weapon,std::default_delete<Weapon>> std::make_unique<Weapon,const char(&)[11],int,double,int,0>(const char (&)[11],int &&,double &&,int &&)"
+  
+  Lab4.vcxproj -> C:\Users\bezbo\source\repos\Lab4\x64\Debug\Lab4.exe
